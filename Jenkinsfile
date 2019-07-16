@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'ansible_worker'
+      label 'ansible_slave'
     }
 
   }
